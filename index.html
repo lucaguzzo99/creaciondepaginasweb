@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Creación de páginas web profesionales, rápidas y a medida para tu negocio.">
   <title>WebCrea · Creación de páginas web profesionales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="marco">
 
     <header class="cabecera">
-      <h1>WebCrea</h1>
-      <p>Tu negocio merece una página web que venda.</p>
+      <span class="logo">✦ WebCrea</span>
+      <h1>Tu negocio merece una web que <span class="grad">venda</span></h1>
+      <p>Diseñamos páginas modernas, rápidas y a medida. De la idea a internet en 7 días.</p>
+      <a class="boton" href="#contacto">Pide tu presupuesto</a>
     </header>
 
     <nav class="menu" aria-label="Principal">
       <a href="#inicio">Inicio</a>
+      <a href="#ejemplos">Ejemplos</a>
       <a href="#servicios">Servicios</a>
       <a href="#planes">Planes</a>
       <a href="#contacto">Contacto</a>
@@ -40,18 +46,8 @@
             <h2>Una web profesional, desde cero</h2>
           </header>
           <figure>
-            <svg viewBox="0 0 400 200" role="img" aria-label="Ilustración de una página web en un navegador">
-              <rect x="20" y="10" width="360" height="180" rx="10" fill="#fff" stroke="#222" stroke-width="3"/>
-              <rect x="20" y="10" width="360" height="30" rx="10" fill="#c9ebff" stroke="#222" stroke-width="3"/>
-              <circle cx="40" cy="25" r="5" fill="#f08a8a"/>
-              <circle cx="58" cy="25" r="5" fill="#f5d36b"/>
-              <circle cx="76" cy="25" r="5" fill="#7fd9a3"/>
-              <rect x="40" y="60" width="150" height="20" rx="4" fill="#e9ffa6"/>
-              <rect x="40" y="95" width="320" height="10" rx="4" fill="#fde2c8"/>
-              <rect x="40" y="115" width="280" height="10" rx="4" fill="#fde2c8"/>
-              <rect x="40" y="145" width="100" height="28" rx="14" fill="#b9fcd3" stroke="#222" stroke-width="2"/>
-            </svg>
-            <figcaption>Diseñamos, desarrollamos y publicamos tu sitio.</figcaption>
+            <img src="img/restaurante.png" alt="Captura de la web de un restaurante creada por WebCrea" loading="lazy">
+            <figcaption>Ejemplo real: web de un restaurante con reservas y delivery.</figcaption>
           </figure>
           <p>
             Creamos páginas web modernas, rápidas y adaptadas a cualquier dispositivo.
@@ -63,6 +59,20 @@
             <a class="boton" href="#contacto">Pide tu presupuesto gratis</a>
           </footer>
         </article>
+
+        <section id="ejemplos" class="ejemplos">
+          <h2>Mira lo que podemos hacer</h2>
+          <div class="galeria">
+            <a class="proyecto" href="https://restaurante.estilo.digital/" target="_blank" rel="noopener">
+              <img src="img/restaurante.png" alt="Web de restaurante Sabores del Sur" loading="lazy">
+              <div><h3>Restaurante</h3><p>Menú, delivery y reservas online.</p><span>Ver sitio →</span></div>
+            </a>
+            <a class="proyecto" href="https://lucaguzzo99.github.io/mantenimiento0/" target="_blank" rel="noopener">
+              <img src="img/mantenimiento.png" alt="Web de mantenimiento de software MantenSoft" loading="lazy">
+              <div><h3>Empresa de software</h3><p>Web corporativa con carrusel y WhatsApp.</p><span>Ver sitio →</span></div>
+            </a>
+          </div>
+        </section>
 
         <section id="servicios" class="servicios">
           <h2>Servicios</h2>
@@ -83,7 +93,8 @@
     </div>
 
     <footer id="contacto" class="pie">
-      <p>¿Hablamos? <a href="mailto:hola@webcrea.example">hola@webcrea.example</a></p>
+      <h2>¿Hablamos?</h2>
+      <p><a href="mailto:hola@webcrea.example">hola@webcrea.example</a></p>
       <small>&copy; 2026 WebCrea. Todos los derechos reservados.</small>
     </footer>
 
