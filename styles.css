@@ -142,6 +142,9 @@ h2 { margin-bottom: .8rem; }
 /* Pie */
 .pie { background: linear-gradient(135deg, #0f1a2e, #1d1540); text-align: center; padding: 2.5rem 1rem; display: grid; gap: .5rem; }
 .pie a { color: var(--cian); font-weight: 600; text-decoration: none; }
+.redes { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin-top: 1rem; }
+.redes a { display: inline-block; color: var(--texto); background: var(--superficie-2); border: 1px solid var(--borde); padding: .5rem 1.1rem; border-radius: 999px; font-size: .9rem; transition: border-color .2s, transform .2s; }
+.redes a:hover { border-color: var(--violeta); transform: translateY(-2px); }
 .pie small { color: var(--suave); margin-top: .8rem; }
 
 @media (max-width: 760px) {
